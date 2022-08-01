@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- durch width=device-width soll die Breite unserer Seite sich an die Breite des Endgeräts anpassen -->
+    <!-- durch initial-scale=1.0 sprechen wir das Zoom-Level an -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project XXX</title>
+    <link rel="icon" type="image/x-icon" href="src/img/eye-solid.svg">
+    <link rel="stylesheet" href="./src/fonts/fontawesome/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" type="text/css" href="./src/css/CSS.css">
+    
+  </head>
+  <body>
+    
+    <div class="quote-container" id="quote-container">
+      <!-- Quote  -->
+      <div class="quote-text">
+        <!-- <i class="fab fa-quote-left"></i> -->
+        <i class="fas fa-quote-left"></i>
+          <span id="quote"></span>
+      </div>
+      <!-- Author -->
+      <div class="quote-author">
+          <span id="author"></span>
+      </div>
+      <!-- Buttons -->
+      <div class="button-container">
+          <button class="twitter-button" id="twitter" title="Tweet this!">
+            <i class="fab fa-twitter"></i>
+          </button>
+          <button id="new-quote">New Quote</button>
+      </div>
+  </div>  
+   <!-- Loader -->
+   <div class="loader" id="loader"></div>
+  <script rel="text/javascript" src="./src/js/quotes.js" ></script>
+  <script rel="text/javascript" src="./src/js/main.js" ></script>
+  </body>
+
+</html>
